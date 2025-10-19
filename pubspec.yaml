@@ -1,0 +1,19 @@
+name: smart_radar_app
+description: Smart Radar Flutter App
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  audioplayers: ^5.2.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/
